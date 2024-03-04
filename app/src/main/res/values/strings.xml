@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BiteBliss</string>
+    <string name="designed_by">Designed By</string>
+    <string name="hawkscode">HawksCode</string>
+    <string name="enjoy_restaurant_quality_meals_at_home">Enjoy Restaurant Quality Meals\nat Home</string>
+    <string name="next">NEXT</string>
+    <string name="deliver_favorite_food">Deliver Favorite Food</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="email_or_phone_number">Email or Phone Number</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="continue_with">Continue With</string>
+    <string name="facebcook">Facebcook</string>
+    <string name="google">Google</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="name">Name</string>
+    <string name="sing_up_with">Sing Up With</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already Have An Account</string>
+</resources>
