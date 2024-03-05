@@ -22,6 +22,11 @@ class LoginActivity : AppCompatActivity() {
 
         hidePassword()
 
+        binding.loginBtn.setOnClickListener {
+            startActivity(Intent(this,MainActivity::class.java))
+            finish()
+        }
+
     }
 
     //function to hide or show password
