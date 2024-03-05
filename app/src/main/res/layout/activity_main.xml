@@ -15,7 +15,7 @@
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="48dp"
         android:text="@string/explore_your_favorite_food"
-        android:textColor="#53E88B"
+        android:textColor="@color/tv_color"
         android:textSize="24sp"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,13 +37,13 @@
         android:background="#474747"
         app:layout_constraintBottom_toTopOf="@id/bottom_nav_bar" />
 
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/fragmentContainerView4"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toTopOf="@id/bottom_nav_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

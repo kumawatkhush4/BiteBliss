@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/sign_up_here"
-                android:textColor="#53E88B"
+                android:textColor="@color/tv_color"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="@id/tv_app_name"
                 app:layout_constraintStart_toStartOf="@id/tv_app_name"
