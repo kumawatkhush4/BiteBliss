@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
 
         binding.doNotHaveAccount.setOnClickListener {
             startActivity(Intent(this, SinginActivity::class.java))
-        }//khush
+        }
 
         hidePassword()
 
