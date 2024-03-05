@@ -17,6 +17,9 @@ class SinginActivity : AppCompatActivity() {
         binding.alreadyAccount.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
+        binding.signUpBtn.setOnClickListener {
+            startActivity(Intent(this,ChooseLocation::class.java))
+        }
 
         hidePassWord()
     }

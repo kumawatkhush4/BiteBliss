@@ -4,6 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
     tools:context=".activities.ChooseLocation">
+
+    <TextView
+        android:id="@+id/tv_choose_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="58dp"
+        android:text="@string/choose_your_location"
+        android:textColor="#53E88B"
+        android:textSize="28sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/et_background"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        android:elevation="8dp"
+        app:endIconDrawable="@drawable/arrow_down"
+        app:layout_constraintTop_toBottomOf="@id/tv_choose_location">
+
+        <AutoCompleteTextView
+            android:id="@+id/list_of_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:text="@string/choose_location"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="68dp"
+        android:text="@string/to_provide_you_with_best_dining_experience_we_need_your_permission_to_access_your_device_s_location_by_enabling_location_services_we_can_offer_personalized_restaurant_recommendation_accurate_delivery_estimates_and_ensure_a_seamless_food_delivery_experience"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
