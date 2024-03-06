@@ -5,11 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.bitebliss.R
+import com.bitebliss.adapters.CartListAdapter
+import com.bitebliss.databinding.FragmentCartBinding
+import com.bitebliss.databinding.FragmentHomeBinding
 
 
 class CartFragment : Fragment() {
 
+    private lateinit var binding: FragmentCartBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -18,9 +23,18 @@ class CartFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cart, container, false)
+    ): View {
+        binding = FragmentCartBinding.inflate(inflater, container, false)
+
+        val cartFoodName = listOf("Burger","Sandwich","Momo","Item")
+        val cartItemPrice = listOf("$5", "$7", "$10", "$8")
+        val cartFoodImages =
+            listOf(R.drawable.menu1, R.drawable.menu2, R.drawable.menu3, R.drawable.menu4)
+
+        val adapter = CartListAdapter(ArrayList(cartFoodName),ArrayList(cartItemPrice),ArrayList(cartFoodImages))
+        binding.rcCartView.layoutManager  = LinearLayoutManager(requireContext())
+        binding.rcCartView.adapter = adapter
+        return binding.root
     }
 
     companion object {
