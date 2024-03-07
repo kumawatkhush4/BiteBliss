@@ -16,6 +16,16 @@
         android:theme="@style/Theme.BiteBliss"
         tools:targetApi="31">
         <activity
+            android:name=".activities.OrderPlaced"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.BottomSheet_confirm"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ActivityPlaceOrder"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activities.ChooseLocation"
             android:exported="false" />
         <activity

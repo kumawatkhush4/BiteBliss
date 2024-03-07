@@ -39,4 +39,16 @@
     <string name="proceed">Proceed</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
+    <string name="edit">Edit</string>
+    <string name="phone_no">Phone No..</string>
+    <string name="address">Address</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="upi">UPI</string>
+    <string name="phonepe">PhonePe</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="_15">$15</string>
+    <string name="place_my_order">Place My Order</string>
+    <string name="congrats">Congrats</string>
+    <string name="your_order_placed">Your Order Placed</string>
 </resources>
