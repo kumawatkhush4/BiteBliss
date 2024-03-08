@@ -59,4 +59,6 @@
     <string name="history">History</string>
     <string name="logout">Logout</string>
     <string name="order_history">Order History</string>
+    <string name="recent_buy">Recent Buy</string>
+    <string name="previously_buy">Previously buy</string>
 </resources>
