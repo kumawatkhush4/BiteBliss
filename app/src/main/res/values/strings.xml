@@ -51,4 +51,12 @@
     <string name="place_my_order">Place My Order</string>
     <string name="congrats">Congrats</string>
     <string name="your_order_placed">Your Order Placed</string>
+    <string name="go_to_home">Go To Home</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="email">E-mail</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="your_order_history">Order History</string>
+    <string name="history">History</string>
+    <string name="logout">Logout</string>
+    <string name="order_history">Order History</string>
 </resources>

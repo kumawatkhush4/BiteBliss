@@ -16,9 +16,6 @@
         android:icon="@drawable/ic_search"/>
 
 
-    <item android:id="@+id/historyFragment2"
-        android:title="@string/menu"
-        android:icon="@drawable/ic_menu"/>
 
 
     <item android:id="@+id/profileFragment2"
